@@ -1,0 +1,10 @@
+name = "file-copy"
+version = "0.1.0"
+defaultTargets = ["file-copy"]
+
+[[lean_lib]]
+name = "FileCopy"
+
+[[lean_exe]]
+name = "file-copy"
+root = "Main"
